@@ -9,8 +9,9 @@
 
 <?php get_header(); ?>
 
-<div class="error-404 not-found">
+<section class="error-404 not-found">
     <h1><?php esc_html_e( 'Error, No Content Found', 'mexico' ); ?></h1>
-</div>
+    <a href="<?php echo esc_url( home_url() ); ?>">Go Home!</a>
+</section>
 
 <?php get_footer(); ?>
