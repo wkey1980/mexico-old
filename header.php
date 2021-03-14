@@ -1,6 +1,8 @@
 <?php
 /**
- * This template file is used to display
+ * Template for displaying the header
+ * 
+ * Contains all content until close of #masthead div
  * 
  * @package mexico
  */
@@ -23,3 +25,17 @@
     <a class="skip-link screen-reader-text" href="#content">
         <?php esc_html_e( 'Skip to Content', 'mexico' ); ?>
     </a>
+
+    <div id="page" class="site">
+
+        <header id="masthead" class="site-header">
+
+            <div class="site-branding">
+                <p>Branding</p>
+            </div><!-- /.site-branding -->
+
+            <nav id="site-navigation" class="main-navigation">
+                <p>navigation</p>
+            </nav><!-- /#site-navigation -->
+
+        </header><!-- /#masthead -->
