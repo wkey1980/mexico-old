@@ -1,6 +1,6 @@
 <?php
 /**
- * This template file is used to display
+ * The template for displaying
  * 
  * @package mexico
  */

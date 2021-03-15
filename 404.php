@@ -1,6 +1,6 @@
 <?php
 /**
- * This template file is used to display 404 pages
+ * The template for displaying 404 pages
  * 
  * @package mexico
  */

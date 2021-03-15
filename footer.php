@@ -1,6 +1,6 @@
 <?php
 /**
- * Template for displaying the footer
+ * The template for displaying the footer.
  * 
  * Contains opening #colophon div and all content until close of </html>
  * 

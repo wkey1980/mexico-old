@@ -1,6 +1,6 @@
 <?php
 /**
- * Template for displaying front-page.php
+ * The template for displaying the front-page.
  * 
  * Contains all content from opening #content div until closing #content div
  * 
