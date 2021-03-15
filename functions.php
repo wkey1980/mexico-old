@@ -7,6 +7,9 @@
 ?>
 
 <?php
+
+define( 'MEXICO_VERSION', '1.0.0' );
+
 define( 'MEXICO_THEME_DIR', get_template_directory() );
 define( 'MEXICO_THEME_URI', get_template_directory_uri() );
 
@@ -92,3 +95,4 @@ add_action( 'after_setup_theme', 'mexico_setup' );
 
 // require MEXICO_THEME_DIR . './inc/enqueue/enqueue-styles.php';
 // require MEXICO_THEME_DIR . './inc/enqueue/enqueue-scripts.php';
+require MEXICO_THEME_DIR . './inc/menus/menus.php';
