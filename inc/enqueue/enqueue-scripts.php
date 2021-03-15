@@ -1,9 +1,9 @@
 <?php
 
-function mexico__enqueue_scripts() {
+function mexico_enqueue_scripts() {
 
     // Register Theme Scripts
-    wp_register_script( 'theme-js', MEXICO_THEME_URI . '/app/js/theme.js', array('jquery'), filemtime( get_template_directory() . '/app/js/theme.js' ), true  );
+    wp_register_script( 'theme-js', MEXICO_THEME_URI . '/dist/js/theme.js', array('jquery'), filemtime( get_template_directory() . '/dist/js/theme.js' ), true  );
 
     // Enqueue Theme Scripts
     wp_enqueue_script( 'theme-js' );

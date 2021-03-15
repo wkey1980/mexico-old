@@ -93,6 +93,6 @@ if ( ! function_exists( 'mexico_setup' ) ):
 endif;
 add_action( 'after_setup_theme', 'mexico_setup' );
 
-// require MEXICO_THEME_DIR . './inc/enqueue/enqueue-styles.php';
-// require MEXICO_THEME_DIR . './inc/enqueue/enqueue-scripts.php';
+require MEXICO_THEME_DIR . './inc/enqueue/enqueue-styles.php';
+require MEXICO_THEME_DIR . './inc/enqueue/enqueue-scripts.php';
 require MEXICO_THEME_DIR . './inc/menus/menus.php';
