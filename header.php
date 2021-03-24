@@ -30,5 +30,5 @@
     <div id="page" class="site">
 
         <header id="masthead" class="site-header">
-
+            <?php get_template_part( '/template-parts/header/site-header' ); ?>
         </header><!-- /#masthead -->
