@@ -10,7 +10,7 @@
 
 <?php get_header(); ?>
 
-    <main id="content" class="site-main">
+    <!-- <main id="content" class="site-main">
 
         <?php if ( have_posts() ) : ?>
 
@@ -28,7 +28,7 @@
                 <h1 class="404">No posts found</h1>
             </article>
 
-        <?php endif; ?>
+        <?php endif; ?> -->
 
     </main><!-- /#content -->
 

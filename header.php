@@ -14,7 +14,8 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
     <?php wp_head(); ?>
 </head>
 
@@ -29,13 +30,5 @@
     <div id="page" class="site">
 
         <header id="masthead" class="site-header">
-
-            <div class="site-branding">
-                <p>Branding</p>
-            </div><!-- /.site-branding -->
-
-            <nav id="site-navigation" class="main-navigation">
-                <p>navigation</p>
-            </nav><!-- /#site-navigation -->
 
         </header><!-- /#masthead -->

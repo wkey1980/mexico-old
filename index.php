@@ -12,7 +12,7 @@
 
     <main id="content" class="site-main">
 
-        <?php if ( have_posts() ) : ?>
+        <!-- <?php if ( have_posts() ) : ?>
 
             <?php while ( have_posts() ) : the_post(); ?>
 
@@ -28,7 +28,7 @@
                 <h1 class="404">No posts found</h1>
             </article>
 
-        <?php endif; ?>
+        <?php endif; ?> -->
 
     </main><!-- /#content -->
 
