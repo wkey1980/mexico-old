@@ -16,3 +16,7 @@
 <section class="branding">
     <?php get_template_part( '/template-parts/branding/site-branding' ); ?>
 </section>
+
+<section class="hero">
+    <?php get_template_part( '/template-parts/hero/hero' ); ?>
+</section>
